@@ -3,7 +3,7 @@ import { getBarcodeScanner } from 'lightning/mobileCapabilities'; //import barco
 
 export default class MyBarcodeScanner extends LightningElement {
 
-    scannedResult ='';
+    scannedResult = '';
 
     connectedCallback(){
         this.loadScanner = getBarcodeScanner(); 
